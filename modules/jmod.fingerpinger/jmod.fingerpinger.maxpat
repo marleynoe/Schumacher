@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 117.0, 87.0, 1007.0, 702.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 341.0, 102.0, 1007.0, 702.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 117.0, 87.0, 1007.0, 702.0 ],
+		"defrect" : [ 341.0, 102.0, 1007.0, 702.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -17,6 +23,7 @@
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Verdana",
@@ -151,7 +158,7 @@
 					"outlettype" : [ "", "", "int" ],
 					"patching_rect" : [ 465.0, 341.0, 40.990234, 20.15332 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 239.0, 23.0, 59.487606, 12.15332 ],
+					"presentation_rect" : [ 239.0, 21.0, 59.487606, 12.15332 ],
 					"rounded" : 8.0,
 					"text" : "Start",
 					"texton" : "Stop"
@@ -183,6 +190,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 646.0, 50.0, 480.0, 360.0 ],
 						"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 						"bglocked" : 0,
@@ -200,6 +213,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 0,
 						"enablevscroll" : 0,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -246,6 +260,12 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 118.0, 44.0, 1176.0, 707.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 118.0, 44.0, 1176.0, 707.0 ],
@@ -262,6 +282,7 @@
 										"imprint" : 0,
 										"enablehscroll" : 1,
 										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -1309,13 +1330,13 @@
 ,
 									"patching_rect" : [ 26.0, 141.0, 59.5, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"fontname" : "Arial",
+										"default_fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p draw"
@@ -1528,13 +1549,13 @@
 ,
 					"patching_rect" : [ 406.0, 450.0, 82.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p fingerpinger"
@@ -1545,6 +1566,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-55",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -1552,7 +1574,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 162.0, 24.0, 62.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 132.0, 19.0, 107.0, 19.0 ],
+					"presentation_rect" : [ 132.0, 17.0, 107.0, 19.0 ],
 					"text" : "Start Fingerpinger:"
 				}
 
@@ -1595,7 +1617,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 69.0, 363.0, 213.0, 17.0 ],
-					"text" : "/freeze 0"
+					"text" : "/view/size 300 70"
 				}
 
 			}
@@ -1746,7 +1768,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1.0, 1.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 2.0, 300.0, 35.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 35.0 ],
 					"text" : "/editing_this_module"
 				}
 
