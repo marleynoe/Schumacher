@@ -28,6 +28,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 406.0, 476.0, 55.0, 19.0 ],
+					"text" : "jcom.out"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "multitouch device number",
 					"fontname" : "Verdana",
 					"fontsize" : 8.0,
@@ -1412,16 +1426,16 @@
 ,
 									"patching_rect" : [ 26.0, 141.0, 59.5, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : ""
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"tags" : "",
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"fontface" : 0
 									}
 ,
 									"text" : "p draw"
@@ -1641,16 +1655,16 @@
 ,
 					"patching_rect" : [ 406.0, 450.0, 82.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : ""
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"tags" : "",
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontface" : 0
 					}
 ,
 					"text" : "p fingerpinger"
@@ -2054,6 +2068,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 415.5, 367.0, 696.5, 367.0 ],
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2112,15 +2136,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-9", 2 ]
 				}
 
 			}
@@ -2191,6 +2206,10 @@
 			}
 , 			{
 				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.out.mxo",
 				"type" : "iLaX"
 			}
  ]
